@@ -220,7 +220,7 @@ def main():
                 pass             
 def login():
     clear()
-    print("⚡ Welcome To DDoS-Proxy [V2]")
+    print("⚡ Welcome To DDoS-Proxy [V2] by ANewTips")
     user = "anewtips"
     passwd = "anewtips"
     username = input("⚡ Username: ")
