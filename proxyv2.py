@@ -122,7 +122,7 @@ def title():
 def main():
     title()
     while(True):
-        cnc = input('''\x1bChọn Methods Để Attack:''')
+        cnc = input('''\x1b Chọn Methods Để Attack:''')
         if cnc == "layer7" or cnc == "LAYER7" or cnc == "L7" or cnc == "l7":
             layer7()
         if cnc == "methods" or cnc == "METHODS" or cnc == "MS" or cnc == "ms":
@@ -231,8 +231,9 @@ def main():
                 pass             
 def login():
     clear()
-    user = "hlam"
-    passwd = "hlam"
+    print("⚡ Welcome To DDoS-Proxy [V2]")
+    user = "anewtips"
+    passwd = "anewtips"
     username = input("⚡ Username: ")
     password = getpass.getpass(prompt='⚡ Password: ')
     if username != user or password != passwd:
@@ -240,8 +241,8 @@ def login():
         print("⚡ Xin Lỗi Bạn Đã Nhập Sai Pass")
         sys.exit(1)
     elif username == user and password == passwd:
-        print("⚡ Welcome To Ddos-Proxy [v2]")
-        time.sleep(0.3)
+        print("⚡ Welcome To DDoS-Proxy [V2]")
+        time.sleep(0.5)
         ascii_vro()
         main()
 
