@@ -12,70 +12,6 @@ def clear():
 proxys = open('proxies.txt').readlines()
 bots = len(proxys)
 
-def ascii_vro():
-    clear()
-    print(f'''
-     / **/|        
-     | == /        
-      |  |         
-      |  |         
-      |  /         
-       |/  
-
-
-
-
-
-
-
-    ''')
-    time.sleep(0.6)
-    clear()
-    print(f'''
-
-
-
-     / **/|        
-     | == /        
-      |  |         
-      |  |         
-      |  /         
-       |/  
-
-
-    ''')
-    time.sleep(0.6)
-    clear()
-    print(f'''
-
-
-
-
-
-
-
-     / **/|        
-     | == /        
-      |  |                  
-
-    ''')
-    time.sleep(0.6)
-    clear()
-    print(f"""
-
-     _.-^^---....,,--       
- _--                  --_  
-<                        >)
-|                         | 
- \._                   _./  
-    ```--. . , ; .--'''       
-          | |   |             
-       .-=||  | |=-.   
-       `-=#$%&%$#=-'   
-          | ;  :|     
- _____.,-#%&$@%#&#~,._____
-    """)
-    time.sleep(0.8)
     clear()
 
 proxys = open('proxies.txt').readlines()
@@ -230,8 +166,8 @@ def login():
         print("⚡ Xin Lỗi Bạn Đã Nhập Sai Pass")
         sys.exit(1)
     elif username == user and password == passwd:
-        print("⚡ Welcome To DDoS-Proxy [V2]")
-        time.sleep(0.5)
+        print("⚡ Chúc bạn có trải nghiệm vui vẻ")
+        time.sleep(0.10)
         ascii_vro()
         main()
 
