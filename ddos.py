@@ -12,8 +12,6 @@ def clear():
 proxys = open('proxies.txt').readlines()
 bots = len(proxys)
 
-    clear()
-
 proxys = open('proxies.txt').readlines()
 bots = len(proxys)
 def si():
